@@ -93,6 +93,12 @@ header nav a {
 	text-decoration: none;
 }
 
+.divLinks {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
 /* section one */
 
 span {
@@ -111,6 +117,7 @@ span {
 h1 {
 	font-size: 90px;
 }
+
 .call-to-action button {
 	width: 45%;
     height: 5vh;
@@ -124,7 +131,7 @@ h1 {
 }
 
 .section-two {
-	width: 45%
+	width: 50%
 }
 
 .middle-img {
@@ -135,12 +142,15 @@ h1 {
 .section-two p {
 	margin: 3%;
 }
+
+image-two-container {
+    margin: 3%;
+}
 /* Section-three */
 
 .section-three-container{
 	display: flex;
 	justify-content: space-between;
-	margin: 0 3%;
 }
 
 .section-three {
@@ -244,6 +254,32 @@ ul {
     align-content: center;
     justify-content: center;
     margin: 3% 0 0 0;
-}
-© 2020 GitHub, Inc.
+}   
 
+/* Media Queries */
+
+@media (max-width: 800px) {
+    .image-container {
+        display: none;
+    }
+    
+    .section-one-container {
+        justify-content: center;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .logo {
+        margin: 10%;
+    }
+}
+
+@media (max-width: 500px) {
+    
+}
