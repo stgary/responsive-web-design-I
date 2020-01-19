@@ -1,3 +1,249 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* index.html styling */
+
+/* all */
+
+* {
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	max-width:100%;
+}
+
+/* header */
+
+header {
+	display: flex;
+    justify-content: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header nav a {
+	color: #C8C8C8;
+	text-decoration: none;
+}
+
+/* section one */
+
+span {
+	font-family: 'Bangers', cursive;
+	margin: 3%;
+}
+
+.section-one-container {
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3% 0 3% 5%;
+}
+
+h1 {
+	font-size: 90px;
+}
+.call-to-action button {
+	width: 45%;
+    height: 5vh;
+}
+
+/* Section-two */
+
+.section-two-container {
+    display: flex;
+	justify-content: space-around;
+}
+
+.section-two {
+	width: 45%
+}
+
+.middle-img {
+	width: 100%;
+	margin: 3% 0;
+}
+
+.section-two p {
+	margin: 3%;
+}
+/* Section-three */
+
+.section-three-container{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 3%;
+}
+
+.section-three {
+	width: 30%;
+}
+
+
+.section-three p {
+	margin: 3%;
+}
+
+hr {
+	width: 100%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+/* footer */
+
+.contact-container address {
+	margin: 0 0 3% 3%;
+}
+
+.copyright {
+	display: flex;
+    justify-content: center;
+}
+
+/* services.html styling */
+
+/* services section one */
+
+.content-one-container {
+	margin: 3% 0;
+}
+
+.container {
+	margin: 0 5%;
+}
+
+.services {
+	margin: 0;
+}
+
+.services-header-img {
+	width: 100%;
+}
+
+h6 {
+	margin: 3% 0;
+	font-family: 'Bangers', cursive;
+	font-size: 30px;
+}
+
+/* services section two */
+
+.parent {
+	display: flex;
+}
+
+.child-one {
+	margin-right: 5%;
+}
+
+.grandchild{
+	margin: 3% 0 3% 0;
+	border: 1px solid black;
+	padding: 5%;
+}
+
+.grandchild button {
+    width: 30%;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+.content-facts-container {
+	display: flex;
+}
+
+.content-facts {
+	width: 45%
+}
+
+.content-facts p {
+	margin: 5% 0 5% 0%;
+}
+
+.img-container {
+	width: 45%;
+    margin-left: 13%;
+}
+
+ul {
+	list-style-type: square;
+	margin-left: 3%;
+}
+
+.copyright-great-idea {
+	display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 3% 0 0 0;
+}
+© 2020 GitHub, Inc.
 
