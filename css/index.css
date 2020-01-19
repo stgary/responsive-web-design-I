@@ -296,4 +296,24 @@ ul {
     .section-three {
         width: 100%;
     }
+
+    header nav a {
+        color: #C8C8C8;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        border-top: 1px solid;
+        padding: 3%;
+    }
+
+    .divLinks {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
 }
