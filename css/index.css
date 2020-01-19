@@ -281,5 +281,19 @@ ul {
 }
 
 @media (max-width: 500px) {
+    .section-two-container {
+        flex-direction: column;
+    }
+
+    .section-two {
+        width: 100%;
+    }
     
+    .section-three-container {
+        flex-direction: column;
+    }
+    
+    .section-three {
+        width: 100%;
+    }
 }
